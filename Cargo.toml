@@ -10,3 +10,8 @@ lto = true
 
 [profile.dev]
 panic = "abort"
+
+# Resolve ldk-node to the JssDWt fork that exposes min_final_cltv_expiry_delta on
+# receive-for-hash. Drop this patch once the change lands upstream in ldk-node.
+[patch."https://github.com/lightningdevkit/ldk-node"]
+ldk-node = { git = "https://github.com/JssDWt/ldk-node", rev = "5893fb63fc147afc6a4bb3c353609fa5e295e8c3" }
