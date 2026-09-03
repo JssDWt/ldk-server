@@ -1264,7 +1264,7 @@ checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 [[package]]
 name = "ldk-node"
 version = "0.8.0+git"
-source = "git+https://github.com/JssDWt/ldk-node?rev=5893fb63fc147afc6a4bb3c353609fa5e295e8c3#5893fb63fc147afc6a4bb3c353609fa5e295e8c3"
+source = "git+https://github.com/JssDWt/ldk-node?branch=jssdwt-self-payment-direction-key#70715dceb3b5252a9f94c8b982fb8b19b0ea5eb3"
 dependencies = [
  "async-trait",
  "base64 0.22.1",
@@ -1418,7 +1418,7 @@ dependencies = [
 [[package]]
 name = "lightning"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bech32",
  "bitcoin",
@@ -1435,7 +1435,7 @@ dependencies = [
 [[package]]
 name = "lightning-background-processor"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
  "bitcoin-io",
@@ -1449,7 +1449,7 @@ dependencies = [
 [[package]]
 name = "lightning-block-sync"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
  "bitreq",
@@ -1461,7 +1461,7 @@ dependencies = [
 [[package]]
 name = "lightning-dns-resolver"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "dnssec-prover",
  "lightning",
@@ -1472,7 +1472,7 @@ dependencies = [
 [[package]]
 name = "lightning-invoice"
 version = "0.35.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bech32",
  "bitcoin",
@@ -1483,7 +1483,7 @@ dependencies = [
 [[package]]
 name = "lightning-liquidity"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
  "bitreq",
@@ -1499,7 +1499,7 @@ dependencies = [
 [[package]]
 name = "lightning-macros"
 version = "0.2.2+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1509,7 +1509,7 @@ dependencies = [
 [[package]]
 name = "lightning-net-tokio"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
  "lightning",
@@ -1519,7 +1519,7 @@ dependencies = [
 [[package]]
 name = "lightning-persister"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
  "lightning",
@@ -1530,7 +1530,7 @@ dependencies = [
 [[package]]
 name = "lightning-rapid-gossip-sync"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
  "bitcoin-io",
@@ -1541,7 +1541,7 @@ dependencies = [
 [[package]]
 name = "lightning-transaction-sync"
 version = "0.3.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
  "electrum-client",
@@ -1554,7 +1554,7 @@ dependencies = [
 [[package]]
 name = "lightning-types"
 version = "0.4.0+git"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "bitcoin",
 ]
@@ -1713,7 +1713,7 @@ checksum = "7edddbd0b52d732b21ad9a5fab5c704c14cd949e5e9a1ec5929a24fded1b904c"
 [[package]]
 name = "possiblyrandom"
 version = "0.2.0"
-source = "git+https://github.com/lightningdevkit/rust-lightning?rev=3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c#3dfcc4cca1866c5e5d4d4eaf3b82e09584e2ce5c"
+source = "git+https://github.com/JssDWt/rust-lightning?branch=jssdwt-self-payment-3dfcc4cc#5d319cf351c52699b6f86ee475e735ba07f7b0d7"
 dependencies = [
  "getrandom 0.2.16",
 ]

@@ -14,4 +14,20 @@ panic = "abort"
 # Resolve ldk-node to the JssDWt fork that exposes min_final_cltv_expiry_delta on
 # receive-for-hash. Drop this patch once the change lands upstream in ldk-node.
 [patch."https://github.com/lightningdevkit/ldk-node"]
-ldk-node = { git = "https://github.com/JssDWt/ldk-node", rev = "5893fb63fc147afc6a4bb3c353609fa5e295e8c3" }
+ldk-node = { git = "https://github.com/JssDWt/ldk-node", branch = "jssdwt-self-payment-direction-key" }
+
+# Override every lightning-* crate to the fork branch carrying the self-payment
+# change, based on the revision ldk-node pins, so the graph resolves to one set.
+[patch."https://github.com/lightningdevkit/rust-lightning"]
+lightning = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-types = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-invoice = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-net-tokio = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-persister = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-background-processor = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-rapid-gossip-sync = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-block-sync = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-transaction-sync = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-liquidity = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-macros = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
+lightning-dns-resolver = { git = "https://github.com/JssDWt/rust-lightning", branch = "jssdwt-self-payment-3dfcc4cc" }
