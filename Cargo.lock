@@ -1052,7 +1052,7 @@ dependencies = [
  "libc",
  "percent-encoding",
  "pin-project-lite",
- "socket2 0.5.10",
+ "socket2 0.6.1",
  "tokio",
  "tower-service",
  "tracing",
@@ -1264,7 +1264,7 @@ checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 [[package]]
 name = "ldk-node"
 version = "0.8.0+git"
-source = "git+https://github.com/JssDWt/ldk-node?branch=ssp#1d6d77b8b20ac397201b780257e7a52a2dd4bd83"
+source = "git+https://github.com/JssDWt/ldk-node?branch=ssp#febf96fb64e437162e8767cd35ee35a44035b415"
 dependencies = [
  "async-trait",
  "base64 0.22.1",
@@ -1822,7 +1822,7 @@ dependencies = [
  "quinn-udp",
  "rustc-hash",
  "rustls 0.23.34",
- "socket2 0.5.10",
+ "socket2 0.6.1",
  "thiserror",
  "tokio",
  "tracing",
@@ -1859,7 +1859,7 @@ dependencies = [
  "cfg_aliases",
  "libc",
  "once_cell",
- "socket2 0.5.10",
+ "socket2 0.6.1",
  "tracing",
  "windows-sys 0.60.2",
 ]
