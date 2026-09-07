@@ -1264,7 +1264,7 @@ checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 [[package]]
 name = "ldk-node"
 version = "0.8.0+git"
-source = "git+https://github.com/JssDWt/ldk-node?branch=jssdwt-self-payment-direction-key#70715dceb3b5252a9f94c8b982fb8b19b0ea5eb3"
+source = "git+https://github.com/JssDWt/ldk-node?branch=ssp#1d6d77b8b20ac397201b780257e7a52a2dd4bd83"
 dependencies = [
  "async-trait",
  "base64 0.22.1",

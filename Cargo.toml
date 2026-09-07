@@ -11,10 +11,11 @@ lto = true
 [profile.dev]
 panic = "abort"
 
-# Resolve ldk-node to the JssDWt fork that exposes min_final_cltv_expiry_delta on
-# receive-for-hash. Drop this patch once the change lands upstream in ldk-node.
+# Resolve ldk-node to the JssDWt fork, which exposes min_final_cltv_expiry_delta on
+# receive-for-hash, keys its payment store by (id, direction), and records a held
+# payment's claim deadline. Drop this patch once the changes land upstream.
 [patch."https://github.com/lightningdevkit/ldk-node"]
-ldk-node = { git = "https://github.com/JssDWt/ldk-node", branch = "jssdwt-self-payment-direction-key" }
+ldk-node = { git = "https://github.com/JssDWt/ldk-node", branch = "ssp" }
 
 # Override every lightning-* crate to the fork branch carrying the self-payment
 # change, based on the revision ldk-node pins, so the graph resolves to one set.
